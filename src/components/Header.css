@@ -5,8 +5,7 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
+  position: relative; /* Cambia a relative si estaba en sticky */
   z-index: 1000;
 }
 
@@ -16,7 +15,7 @@
 }
 
 .logo {
-  height: 80px; /* Ajusta según el tamaño de tu logo */
+  height: 60px; /* Ajusta según el tamaño de tu logo */
   margin-right: 10px;
 }
 
