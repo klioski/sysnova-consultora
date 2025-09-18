@@ -1,0 +1,43 @@
+.about-section {
+  background-color: #ffffff;
+  padding: 80px 20px;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-content h3 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about-content ul, .about-content ol {
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.about-content ul li, .about-content ol li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}

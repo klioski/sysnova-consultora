@@ -1,0 +1,48 @@
+.process-section {
+  background-color: #eef2f5;
+}
+
+.process-flow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.process-step {
+  flex-basis: calc(20% - 30px);
+  text-align: center;
+}
+
+.step-number {
+  width: 60px;
+  height: 60px;
+  background-color: #007bff;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.process-step h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Estilos para responsividad */
+@media (max-width: 768px) {
+  .process-step {
+    flex-basis: calc(50% - 30px);
+  }
+}
+
+@media (max-width: 480px) {
+  .process-step {
+    flex-basis: 100%;
+  }
+}

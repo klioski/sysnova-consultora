@@ -1,0 +1,23 @@
+.why-us-section {
+  background-color: #ffffff;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.benefit-item {
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #f0f4f7;
+}
+
+.benefit-item .icon {
+  font-size: 3rem;
+  color: #28a745; /* Color verde */
+  margin-bottom: 20px;
+}
