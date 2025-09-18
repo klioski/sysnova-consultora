@@ -14,7 +14,7 @@ function Contact() {
           <button type="submit" className="btn-primary">Enviar Mensaje</button>
         </form>
         <p className="contact-info">O escríbenos a: <a href="mailto:info@sysnovasolutions.com">info@sysnovasolutions.com</a></p>
-        <p className="contact-info">Llámanos: +52 55 1234 5678</p>
+        <p className="contact-info">Llámanos: +52 55 6559 2896</p>
       </div>
     </section>
   );

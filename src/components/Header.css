@@ -37,3 +37,66 @@
 .navbar a:hover {
   color: #007bff; /* Color azul */
 }
+
+/* src/components/Header.css */
+
+/* Por defecto, la barra de navegación es un flexbox de fila para escritorio */
+.header .navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px; /* Separación entre los links */
+}
+
+/* Oculta el botón de hamburguesa por defecto */
+.menu-toggle {
+  display: none;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* Reglas para Dispositivos Móviles (Tablet y Celular)              */
+/* ---------------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  /* La barra de navegación en móviles se convierte en un menú de columna */
+  .header .navbar {
+    /* Posiciona el menú fuera de la pantalla */
+    position: fixed;
+    top: 60px; /* Debajo del header */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    flex-direction: column;
+    padding-top: 20px;
+    z-index: 999;
+    
+    /* Efecto de transición para el menú */
+    transform: translateY(-150%);
+    transition: transform 0.4s ease-in-out;
+  }
+
+  /* Estado del menú cuando está abierto */
+  .navbar.open {
+    transform: translateY(0);
+  }
+
+  /* Estilos para los links del menú móvil */
+  .navbar a {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.2rem;
+  }
+
+  /* Muestra el botón de hamburguesa en móviles */
+  .menu-toggle {
+    display: block;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+  }
+}
