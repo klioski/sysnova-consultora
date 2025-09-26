@@ -9,6 +9,7 @@ import About from './components/About.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 import { Analytics } from "@vercel/analytics/react";
+import ScrollToTop from './components/ScrollToTop.jsx';
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
             <About />
             <Contact />
             <Footer />
+            <ScrollToTop /> {/* ¡Agrega el componente aquí! */}
             <Analytics />
         </div>
     );
