@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.145793ea.css",
+    "main.js": "/static/js/main.d0bf1b8c.js",
+    "static/js/453.3733bf6c.chunk.js": "/static/js/453.3733bf6c.chunk.js",
+    "static/media/background-tech.jpg": "/static/media/background-tech.e8d56dac0e88ac19f912.jpg",
+    "static/media/sysnova-logo.png": "/static/media/sysnova-logo.2155155ce0f24f16cd4e.png",
+    "index.html": "/index.html",
+    "main.145793ea.css.map": "/static/css/main.145793ea.css.map",
+    "main.d0bf1b8c.js.map": "/static/js/main.d0bf1b8c.js.map",
+    "453.3733bf6c.chunk.js.map": "/static/js/453.3733bf6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.145793ea.css",
+    "static/js/main.d0bf1b8c.js"
+  ]
+}
