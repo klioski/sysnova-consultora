@@ -10,6 +10,7 @@ import Process from './components/Process';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 
 import { Analytics } from "@vercel/analytics/react";
@@ -25,6 +26,7 @@ function App() {
       <About />
       <Contact />
       <Footer />
+      <ScrollToTop /> {/* ¡Agrega el componente aquí! */}
       <Analytics />
     </div>
   );
