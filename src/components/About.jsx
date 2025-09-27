@@ -6,11 +6,11 @@ function About() {
     <section id="about" className="about-section">
       <div className="about-content">
         <h2>¿Quiénes Somos?</h2>
-        <p>En SysNova Solutions, nos dedicamos a construir soluciones de software a la medida para pequeñas y medianas empresas (PyMEs) en México. Creemos que la tecnología es la herramienta más poderosa para optimizar las operaciones y desbloquear el potencial de crecimiento de tu negocio. No vendemos productos enlatados, creamos sistemas que resuelven tus problemas únicos, permitiéndote ser más eficiente, rentable y competitivo.</p>
+        <p>En SysNova Solutions, nos dedicamos a construir soluciones de software a la medida para pequeñas y medianas empresas. Creemos que la tecnología es la herramienta más poderosa para optimizar las operaciones y desbloquear el potencial de crecimiento de tu negocio. No vendemos productos enlatados, creamos sistemas que resuelven tus problemas únicos, permitiéndote ser más eficiente, rentable y competitivo.</p>
         
         <h3>Nuestra Misión y Visión</h3>
         <ul>
-          <li><strong>Misión</strong>: Ser el socio tecnológico de confianza de las PyMEs, ofreciendo soluciones de software personalizadas que optimicen sus operaciones, aumenten su eficiencia y les ayuden a alcanzar sus metas de negocio.</li>
+          <li><strong>Misión</strong>: Ser el socio tecnológico de confianza de las empresas, ofreciendo soluciones de software personalizadas que optimicen sus operaciones, aumenten su eficiencia y les ayuden a alcanzar sus metas de negocio.</li>
           <li><strong>Visión</strong>: Convertirnos en la consultora de software de referencia en el mercado, reconocida por nuestra capacidad para innovar y por el impacto real que nuestras soluciones generan en el crecimiento y la sostenibilidad de las empresas.</li>
         </ul>
 
